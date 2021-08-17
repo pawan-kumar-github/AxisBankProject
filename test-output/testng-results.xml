@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-16T23:02:36 IST" name="Default suite" finished-at="2021-08-16T23:02:52 IST" duration-ms="15325">
+    <groups>
+    </groups>
+    <test started-at="2021-08-16T23:02:36 IST" name="Default test" finished-at="2021-08-16T23:02:52 IST" duration-ms="15325">
+      <class name="com.TestCases.TestCase">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:36 IST" name="launchBrowser" finished-at="2021-08-16T23:02:47 IST" duration-ms="10405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CustomerType_Senior_Citizen()[pri:0, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:47 IST" name="CustomerType_Senior_Citizen" finished-at="2021-08-16T23:02:47 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerType_Senior_Citizen -->
+        <test-method signature="FixedDeposite_Monthly_Payout()[pri:1, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:47 IST" name="FixedDeposite_Monthly_Payout" finished-at="2021-08-16T23:02:47 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FixedDeposite_Monthly_Payout -->
+        <test-method signature="Amount()[pri:2, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:47 IST" name="Amount" finished-at="2021-08-16T23:02:48 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amount -->
+        <test-method signature="ClickAnyWhereOnScreen()[pri:3, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:48 IST" name="ClickAnyWhereOnScreen" finished-at="2021-08-16T23:02:48 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAnyWhereOnScreen -->
+        <test-method signature="PrintRateofInterest()[pri:4, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:48 IST" name="PrintRateofInterest" finished-at="2021-08-16T23:02:48 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintRateofInterest -->
+        <test-method signature="Takescreenshot()[pri:5, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:48 IST" name="Takescreenshot" finished-at="2021-08-16T23:02:51 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="CloseBrowser()[pri:6, instance:com.TestCases.TestCase@27ce24aa]" started-at="2021-08-16T23:02:51 IST" name="CloseBrowser" finished-at="2021-08-16T23:02:52 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.TestCases.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
