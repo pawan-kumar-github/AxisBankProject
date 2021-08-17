@@ -48,18 +48,18 @@ public class DriverSetup {
 					
 					//Binary   Run Successfully
 					
-					System.setProperty("webdriver.chrome.driver", "C:\\Users\\pawan\\eclipse-workspace\\AxisBankProject\\Driver91\\chromedriver.exe");
-					ChromeOptions options = new ChromeOptions();
-					options.addArguments("disable-notifications");
-				    options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
-				    driver=new ChromeDriver(options);
+//					System.setProperty("webdriver.chrome.driver", "C:\\Users\\pawan\\eclipse-workspace\\AxisBankProject\\Driver91\\chromedriver.exe");
+//					ChromeOptions options = new ChromeOptions();
+//					options.addArguments("disable-notifications");
+//				    options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+//				    driver=new ChromeDriver(options);
 				    
 				    
 				                                                  // Configuring driver via maven dependency
-//					WebDriverManager.chromedriver().setup();
-//					ChromeOptions options = new ChromeOptions();
-//					options.addArguments("disable-notifications");
-//					driver=new ChromeDriver(options);
+					WebDriverManager.chromedriver().setup();
+					ChromeOptions options = new ChromeOptions();
+					options.addArguments("disable-notifications");
+					driver=new ChromeDriver(options);
 					
 				} 
 				
